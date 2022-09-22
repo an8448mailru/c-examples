@@ -3,25 +3,10 @@
 int A=6;
 int B=3;
 int C=-2;
+int max=A;
+if (B>max)max=B;
+if (C>max)max=C;
+Console.Write("Наибольшее число: ");
+Console.Write(max);
 
-if(A > B)
-{
-    if(A > C)
-    {
-        Console.Write("Наибольшее число ");
-        Console.Write(A);
-    }
-    else
-        Console.Write("Наибольшее число ");
-        Console.Write(C);
-}
-else
-    if(B > C)
-    {
-        Console.Write("Наибольшее число ");
-        Console.Write(B);
-    }
-    else
-        Console.Write("Наибольшее число ");
-        Console.Write(C);
 
